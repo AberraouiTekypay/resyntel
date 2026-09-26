@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #F7F8FA;
+  --bg-card: #FFFFFF;
+  --text-primary: #0B1F33;
+  --text-secondary: #52606D;
+  --text-muted: #8292A1;
+  --border-light: #E2E8F0;
+  --navy: #0B1F33;
+  --navy-dark: #071524;
+  --slate: #52606D;
+  --teal: #087E8B;
+  --green: #2E7D5B;
+  --amber: #C58A20;
+  --red: #C84C4C;
+}
+
+@theme {
+  --color-brand-navy: #0B1F33;
+  --color-brand-navy-dark: #071524;
+  --color-brand-slate: #52606D;
+  --color-brand-slate-light: #F1F4F8;
+  --color-brand-offwhite: #F7F8FA;
+  --color-brand-teal: #087E8B;
+  --color-brand-teal-light: #EBF7F9;
+  --color-brand-green: #2E7D5B;
+  --color-brand-green-light: #EEF8F3;
+  --color-brand-amber: #C58A20;
+  --color-brand-amber-light: #FEF8ED;
+  --color-brand-red: #C84C4C;
+  --color-brand-red-light: #FDF3F3;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  background-color: #F7F8FA;
+  color: #0B1F33;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars for clean enterprise look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F4F8;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
