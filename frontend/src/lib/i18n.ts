@@ -286,38 +286,87 @@ export const translations = {
     },
     landing: {
       hero_badge: "Built for hospitality operators. Initially piloting in Morocco.",
+      hero_eyebrow: "RESOURCE INTELLIGENCE FOR HOSPITALITY",
+      hero_headline_1: "Know where your hotel is wasting resources.",
+      hero_headline_2: "Know what it is costing you.",
+      hero_supporting: "Resyntel connects energy, water, occupancy, weather and operational data to identify inefficiencies and turn them into measurable financial savings.",
+      hero_credibility: "Initially piloting with hospitality operators in Morocco.",
       hero_title: "Resource Intelligence for Hospitality",
       hero_sub: "Measure resource consumption. Detect inefficiencies. Quantify savings. Act.",
       hero_desc: "An enterprise intelligence layer connecting electricity, water, weather, and occupancy to immediate financial savings for hotel executives.",
       btn_demo: "Enter Zephyr Marrakech Demo",
       btn_pilot: "Request a Pilot",
       btn_explore: "Explore the Platform",
-      problem_tag: "The Problem",
-      problem_title: "Hospitality properties generate vast operational data with zero financial clarity.",
+
+      // Hero Intelligence Panel
+      panel_header: "RESYNTEL INTELLIGENCE",
+      panel_hotel: "Hotel Performance",
+      panel_property: "Zephyr Marrakech — Demo",
+      panel_demo_badge: "DEMO DATA",
+      panel_energy_label: "ENERGY",
+      panel_energy_val: "+12% vs expected",
+      panel_water_label: "WATER",
+      panel_water_val: "+18% vs expected",
+      panel_cost_label: "EST. ANNUAL AVOIDABLE COST",
+      panel_cost_val: "65,200 MAD",
+      panel_signal_title: "TOP SIGNAL",
+      panel_signal_name: "Overnight water flow",
+      panel_signal_expected: "Expected: 1.8 m³/h",
+      panel_signal_observed: "Observed: 5.4 m³/h",
+      panel_signal_impact: "Potential annual impact: 18,700 MAD",
+      panel_investigate: "Investigate",
+
+      // Section 2: Problem
+      problem_tag: "The Operational Reality",
+      problem_h1: "Hotels already have the data.",
+      problem_h2: "They just don't have the intelligence.",
       problem_desc: "Hotel engineering departments receive complex monthly utility invoices from ONEE and RADEEMA, but leadership lacks continuous visibility into where energy and water are wasted, why it happens, and what it costs in Dirhams.",
-      prob_1_title: "Unchecked Nocturnal Baseloads",
-      prob_1_desc: "Chillers, pumps, and water distribution loops continue running at near-peak capacities between 01:00 and 06:00, wasting thousands of Dirhams while guests sleep.",
-      prob_2_title: "Undetected Silent Leakage",
-      prob_2_desc: "Distribution pipe fractures, stuck solenoid valves, and continuous toilet flushes drain over 4,500 m³ annually without triggering traditional alerts.",
-      prob_3_title: "Weather & Occupancy Disconnect",
-      prob_3_desc: "HVAC systems lack dynamic setback logic linking BMS setpoints to property management system (PMS) room occupancy and Marrakech ambient degree days.",
-      platform_tag: "The Platform",
-      platform_title: "Comprehensive Intelligence Across Key Operational Vectors",
-      how_tag: "How It Works",
-      how_title: "From Raw Ingestion to Verified Financial Savings",
-      step_1: "01. Measure",
-      step_1_desc: "Continuous telemetry ingestion from meters, CSV logs, or BMS sensors.",
-      step_2: "02. Detect",
-      step_2_desc: "Statistical residual models detect leaks, schedule overruns, and thermal bypass.",
-      step_3: "03. Quantify",
-      step_3_desc: "Excess consumption mapped to Moroccan utility tariffs (MAD) and ROI payback.",
-      step_4: "04. Act",
-      step_4_desc: "Ranked operational work orders delivered to hotel engineering and leadership.",
-      step_5: "05. Verify",
-      step_5_desc: "Continuous post-intervention monitoring confirms permanently lowered baselines.",
-      cta_title: "Connect Your Hotel Data",
-      cta_desc: "Give us access to one property's operational data and we will run the exact same intelligence analysis on your hotel.",
-      cta_btn: "Start Pilot Program",
+      problem_measure_title: "MEASURE",
+      problem_measure_desc: "Energy, water, occupancy and operational data.",
+      problem_understand_title: "UNDERSTAND",
+      problem_understand_desc: "Normalize consumption against occupancy, weather and operating conditions.",
+      problem_act_title: "ACT",
+      problem_act_desc: "Prioritize the interventions that create measurable financial impact.",
+
+      // Section 3: Process Pipeline
+      process_tag: "Intelligence Pipeline",
+      process_title: "From Raw Telemetry to Verified Financial Savings",
+      process_subtitle: "A continuous, closed-loop intelligence architecture engineered for hospitality infrastructure.",
+
+      // Section 4: Physical Hotel Annotations
+      systems_tag: "Physical Systems Telemetry",
+      systems_title: "Resyntel sees the hotel as an intelligent operating system.",
+      systems_subtitle: "Continuous spatial telemetry mapping real-time resource anomalies directly to physical plant infrastructure.",
+
+      // Section 5: Financial Impact
+      financial_tag: "Financial Quantification",
+      financial_h1: "Resource efficiency is a financial problem.",
+      financial_sub: "Resyntel translates operational inefficiency into financial impact.",
+      financial_desc: "Utility waste directly compresses gross operating profit (GOP). We isolate avoidable capital losses before the billing cycle closes.",
+
+      // Section 6: Product Showcase
+      product_tag: "Enterprise Platform",
+      product_title: "Engineered for Executive Hospitality Leadership",
+      product_subtitle: "From high-level portfolio governance to granular mechanical work orders.",
+
+      // Section 7: Ask Resyntel
+      ask_tag: "Conversational Copilot",
+      ask_h1: "Ask the hotel.",
+      ask_sub: "Grounded in verified telemetry, Moroccan utility tariffs, and thermodynamic regressions. Zero hallucinations.",
+
+      // Section 8: Hospitality Systems
+      hotel_ops_tag: "Hospitality Infrastructure",
+      hotel_ops_h1: "Built for the way hotels actually operate.",
+      hotel_ops_sub: "Deep domain models calibrated for guest comfort tolerances, back-of-house cycles, and peak service windows.",
+
+      // Section 9: Connectivity
+      connect_tag: "Hardware-Agnostic Ingestion",
+      connect_h1: "Use the data you already have.",
+      connect_sub: "Resyntel sits above existing hotel systems. Sensors are added only where the data is missing.",
+
+      // Section 10: Final CTA
+      final_h1: "See what your hotel is wasting.",
+      final_sub: "Connect one property. Let the data show you where the opportunities are.",
     },
     footer: {
       rights: "All monetary values displayed in MAD.",
@@ -604,38 +653,87 @@ export const translations = {
     },
     landing: {
       hero_badge: "Conçu pour les exploitants hôteliers. Projet pilote au Maroc.",
+      hero_eyebrow: "INTELLIGENCE DES RESSOURCES POUR L'HÔTELLERIE",
+      hero_headline_1: "Identifiez où votre hôtel gaspille des ressources.",
+      hero_headline_2: "Mesurez exactement ce que cela vous coûte.",
+      hero_supporting: "Resyntel connecte l'énergie, l'eau, l'occupation, la météo et les données d'exploitation pour révéler les inefficacités et les transformer en gains financiers concrets.",
+      hero_credibility: "Actuellement en phase pilote auprès d'exploitants hôteliers au Maroc.",
       hero_title: "Intelligence des Ressources pour l'Hôtellerie",
       hero_sub: "Mesurez vos consommations. Détectez les gaspillages. Quantifiez les gains. Agissez.",
       hero_desc: "Une couche d'intelligence d'entreprise reliant électricité, eau, météo et taux d'occupation à des gains financiers immédiats pour les dirigeants d'hôtels.",
       btn_demo: "Accéder à la Démo Zephyr Marrakech",
       btn_pilot: "Demander un Pilote",
       btn_explore: "Explorer la Plateforme",
-      problem_tag: "Le Problème",
-      problem_title: "Les hôtels génèrent d'énormes volumes de données sans aucune clarté financière.",
+
+      // Hero Intelligence Panel
+      panel_header: "INTELLIGENCE RESYNTEL",
+      panel_hotel: "Performance Établissement",
+      panel_property: "Zephyr Marrakech — Démo",
+      panel_demo_badge: "DONNÉES DE DÉMO",
+      panel_energy_label: "ÉNERGIE",
+      panel_energy_val: "+12% vs attendu",
+      panel_water_label: "EAU",
+      panel_water_val: "+18% vs attendu",
+      panel_cost_label: "COÛT ANNUEL ÉVITABLE ESTIMÉ",
+      panel_cost_val: "65,200 MAD",
+      panel_signal_title: "SIGNAL MAJEUR",
+      panel_signal_name: "Débit nocturne d'eau",
+      panel_signal_expected: "Attendu : 1,8 m³/h",
+      panel_signal_observed: "Constaté : 5,4 m³/h",
+      panel_signal_impact: "Impact annuel estimé : 18 700 MAD",
+      panel_investigate: "Investiguer",
+
+      // Section 2: Problem
+      problem_tag: "La Réalité Opérationnelle",
+      problem_h1: "Les hôtels possèdent déjà les données.",
+      problem_h2: "Il leur manque l'intelligence décisionnelle.",
       problem_desc: "Les directions techniques reçoivent des factures complexes de l'ONEE et de la RADEEMA, mais la direction générale manque de visibilité en temps réel sur les gaspillages et leur coût exact en Dirhams.",
-      prob_1_title: "Talons Nocturnes Non Régulés",
-      prob_1_desc: "Groupes froids, pompes et boucles d'eau continuent de fonctionner à pleine charge entre 01h00 et 06h00, gaspillant des milliers de Dirhams pendant le sommeil des clients.",
-      prob_2_title: "Fuites Invisibles Non Détectées",
-      prob_2_desc: "Ruptures de canalisations, électrovannes bloquées et chasses d'eau continues évacuent plus de 4 500 m³ chaque année sans déclencher d'alerte classique.",
-      prob_3_title: "Déconnexion Météo et Occupation",
-      prob_3_desc: "Les systèmes CVC manquent d'abaissement dynamique reliant les consignes GTC aux réservations PMS et aux degrés-jours ambiants de Marrakech.",
-      platform_tag: "La Plateforme",
-      platform_title: "Une Intelligence Complète sur les Pôles Clés",
-      how_tag: "Comment Ça Marche",
-      how_title: "De l'Ingestion Brute aux Économies Financières Vérifiées",
-      step_1: "01. Mesurer",
-      step_1_desc: "Ingestion continue des compteurs, journaux CSV et capteurs GTC.",
-      step_2: "02. Détecter",
-      step_2_desc: "Modèles statistiques résiduels identifiant fuites, dérives horaires et ponts thermiques.",
-      step_3: "03. Quantifier",
-      step_3_desc: "Surconsommations traduites en Dirhams marocains (MAD) et ROI précis.",
-      step_4: "04. Agir",
-      step_4_desc: "Plans d'actions techniques priorisés livrés aux équipes techniques et à la direction.",
-      step_5: "05. Vérifier",
-      step_5_desc: "Vérification post-intervention confirmant l'abaissement durable du talon de consommation.",
-      cta_title: "Connectez Vos Données Hôtelières",
-      cta_desc: "Donnez-nous accès aux données d'un établissement et nous lancerons la même analyse d'intelligence sur votre hôtel.",
-      cta_btn: "Démarrer le Programme Pilote",
+      problem_measure_title: "MESURER",
+      problem_measure_desc: "Énergie, eau, taux d'occupation et paramètres d'exploitation.",
+      problem_understand_title: "COMPRENDRE",
+      problem_understand_desc: "Normaliser la consommation en fonction de l'occupation, du climat et des conditions de service.",
+      problem_act_title: "AGIR",
+      problem_act_desc: "Prioriser les interventions techniques générant un impact financier direct.",
+
+      // Section 3: Process Pipeline
+      process_tag: "Chaîne d'Intelligence",
+      process_title: "De la Télémétrie Brute aux Économies Financières Vérifiées",
+      process_subtitle: "Une architecture en boucle fermée conçue spécifiquement pour l'infrastructure hôtelière.",
+
+      // Section 4: Physical Hotel Annotations
+      systems_tag: "Télémétrie des Systèmes Physiques",
+      systems_title: "Resyntel appréhende l'hôtel comme un système d'exploitation intelligent.",
+      systems_subtitle: "Cartographie spatiale continue reliant en temps réel chaque anomalie aux installations techniques physiques.",
+
+      // Section 5: Financial Impact
+      financial_tag: "Quantification Financière",
+      financial_h1: "L'efficacité des ressources est un enjeu financier.",
+      financial_sub: "Resyntel traduit chaque inefficacité opérationnelle en impact financier chiffré.",
+      financial_desc: "Le gaspillage de fluides comprime directement le résultat brut d'exploitation (RBE/GOP). Nous isolons les pertes de capital évitables avant la fin du cycle de facturation.",
+
+      // Section 6: Product Showcase
+      product_tag: "Plateforme Entreprise",
+      product_title: "Conçue pour la Direction Générale et les Dirigeants Hôteliers",
+      product_subtitle: "Du pilotage multi-hôtels de haut niveau aux ordres d'intervention mécanique précis.",
+
+      // Section 7: Ask Resyntel
+      ask_tag: "Copilote Analytique",
+      ask_h1: "Interrogez l'hôtel.",
+      ask_sub: "Ancré dans la télémétrie réelle, les grilles tarifaires marocaines et les régressions thermodynamiques. Zéro hallucination.",
+
+      // Section 8: Hospitality Systems
+      hotel_ops_tag: "Infrastructure Hôtelière",
+      hotel_ops_h1: "Conçu selon le fonctionnement réel des hôtels.",
+      hotel_ops_sub: "Modèles calibrés pour le confort des hôtes, les cycles d'étages et les fenêtres de pointe du service.",
+
+      // Section 9: Connectivity
+      connect_tag: "Ingestion Universelle Agnostique",
+      connect_h1: "Exploitez les données que vous possédez déjà.",
+      connect_sub: "Resyntel se positionne au-dessus des systèmes hôteliers existants. Des capteurs ne sont ajoutés qu'en cas de données manquantes.",
+
+      // Section 10: Final CTA
+      final_h1: "Révélez ce que votre hôtel gaspille.",
+      final_sub: "Connectez un premier établissement. Laissez les données vous montrer où se trouvent les gains.",
     },
     footer: {
       rights: "Toutes les valeurs financières sont exprimées exclusivement en MAD.",
