@@ -1,44 +1,79 @@
 # RESYNTEL
 ## Resource Intelligence for Hospitality
-**An EM300.co Company** · [resyntel.com](https://resyntel.com)
+**An EM300.co Company** · [resyntel.com](https://resyntel.com) · [Live Production App](https://resyntel.vercel.app)
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat&logo=next.js)](https://nextjs.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Currency](https://img.shields.io/badge/Currency-MAD%20(Morocco)-2E7D5B?style=flat)](https://resyntel.com)
-[![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20FR-087E8B?style=flat)](https://resyntel.com)
+[![Live Production](https://img.shields.io/badge/Production-Live%20on%20Vercel-000000?style=for-the-badge&logo=vercel)](https://resyntel.vercel.app)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/AberraouiTekypay/resyntel)
+[![Currency](https://img.shields.io/badge/Currency-MAD%20(Morocco)-2E7D5B?style=for-the-badge)](https://resyntel.com)
+[![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20FR-087E8B?style=for-the-badge)](https://resyntel.com)
+[![Tests](https://img.shields.io/badge/Tests-16%2F16%20Passing-success?style=for-the-badge)](https://github.com/AberraouiTekypay/resyntel)
 
-> **Measure resource consumption. Detect inefficiencies. Quantify savings. Act.**
+> **"Measure resource consumption. Detect inefficiencies. Quantify savings. Act."**
+>
+> *An intelligence layer connecting hotel operations, resource consumption, and financial performance.*
 
-Resyntel is an enterprise-grade hospitality resource-efficiency intelligence platform designed for hotel CEOs, CFOs, General Managers, and Engineering Directors. It aggregates electricity, water, weather, occupancy, and asset telemetry, converting operational data into prioritized financial savings.
+---
 
-Localized for Morocco with initial demonstration property **Zephyr Marrakech** (Marrakech, Morocco) using Moroccan utility structures (**ONEE** electricity tariffs and **RADEEMA** water tariffs).
+## 🌐 Live Production Links
+
+- **Production Marketing & Platform:** [https://resyntel.vercel.app](https://resyntel.vercel.app)
+- **Direct Vercel Deployment:** [https://resyntel-naahn92x4-amines-projects-9495f9a0.vercel.app](https://resyntel-naahn92x4-amines-projects-9495f9a0.vercel.app)
+- **GitHub Repository:** [https://github.com/AberraouiTekypay/resyntel](https://github.com/AberraouiTekypay/resyntel)
+
+---
+
+## Overview
+
+**Resyntel** is an enterprise-grade hospitality resource-efficiency intelligence platform designed for hotel CEOs, CFOs, General Managers, and Engineering Directors. It operates as a non-invasive intelligence layer above existing hotel systems (PMS, BMS, smart meters, and utility invoices), turning operational telemetry into prioritized financial savings.
+
+The platform is strictly localized for Morocco using **Zephyr Marrakech** (180 keys, Marrakech, Morocco) as the calibrated pilot demonstration property, incorporating Moroccan utility tariffs (**ONEE** electricity and **RADEEMA** water) and local climate degree days.
 
 ---
 
 ## Key Highlights
 
-- **Bilingual Interface (English & Français)**: Instant language switching across all dashboards, charts, anomalies, AI copilot responses, and engineering recommendations.
-- **Strict Moroccan Localization (MAD)**: Every single financial metric is displayed in **Moroccan Dirham (MAD)** via a centralized presentation formatter (`formatMAD`).
-- **Grounded AI Copilot (Ask Resyntel / Interroger Resyntel)**: Zero hallucinations. All executive answers derive directly from backend telemetry regressions and verified utility tariffs.
-- **Reproducible Analytics Engine**:
-  - **Baseline Regression**: Normalized for Marrakech Cooling Degree Days (CDD 18°C base) and guest-night occupancy.
-  - **Anomaly Detection**: Statistical residual analysis and persistent nocturnal baseload detection.
-  - **Quantified Savings**: `Excess Consumption × Utility Tariff` mapped to payback period in months.
-  - **Carbon Intelligence**: Operational Scope 1 & Scope 2 greenhouse gas emissions using Moroccan ONEE grid emission factors (`0.660 kg CO₂e / kWh`).
+1. **Venture-Grade Marketing Experience**:
+   - Editorial architectural hotel photography combined with industrial intelligence instrumentation.
+   - Spatial asset mapping overlaying real-time telemetry annotations directly on physical hotel infrastructure.
+   - High-contrast financial impact section quantifying waste in **Moroccan Dirham (MAD)**.
+   - Interactive enterprise product showcase simulating real platform workflows.
+   - Hardware-agnostic architecture demonstrating non-invasive integration above existing PMS/BMS systems.
+
+2. **Full Bilingual Localization (English & Français)**:
+   - Zero-latency language switcher (`EN | FR`) in the header and landing page.
+   - 100% dictionary coverage across all 9 internal screens, navigation items, metrics, and explanatory text.
+
+3. **Strict Moroccan Localization (MAD)**:
+   - Centralized formatting via `formatMAD()` across the entire stack.
+   - Zero instances of `$`, `€`, `EUR`, `USD`, or `GBP`.
+   - Utility rates: **1.40 MAD / kWh** (ONEE Time-of-Use structure: Peak 1.80, Standard 1.30, Off-Peak 0.95 MAD/kWh), **12.50 MAD / m³** (RADEEMA commercial water tariff).
+   - Carbon grid emission factor: **0.660 kg CO₂e / kWh** (ONEE generation mix).
+
+4. **Grounded Executive AI Copilot (`Ask Resyntel`)**:
+   - Zero hallucinations. All executive answers derive deterministically from backend telemetry regressions, weather balance points, and utility tariffs.
+
+5. **Reproducible Analytics Engine**:
+   - **Baseline Regression**: Normalized for Marrakech Cooling Degree Days (CDD base 18°C) and guest-night room occupancy ($R^2 > 0.91$).
+   - **Anomaly Detection**: Statistical residual analysis isolating persistent nocturnal baseloads.
+   - **Savings Quantification**: Direct translation of excess resource draw into annual avoidable cost (MAD) and ROI payback period in months.
+   - **Carbon Intelligence**: Scope 1 (direct fuels) and Scope 2 (ONEE grid) greenhouse gas accounting.
 
 ---
 
-## Executive Demo Targets (Zephyr Marrakech)
+## Executive Demo Calibration (Zephyr Marrakech)
 
-- **Resyntel Efficiency Score**: **78 / 100**
-- **Annual Savings Opportunity**: **65,200 MAD / year** across 17 verified opportunities (Average Payback: 2.1 Months)
-  - **Energy**: **43,800 MAD / year** (67.2% of total)
-  - **Water**: **18,700 MAD / year** (28.7% of total)
-  - **Other Operational**: **2,700 MAD / year** (4.1% of total)
-- **Top Priority Opportunities**:
-  1. *Overnight Water Distribution Leak*: **9,800 MAD / year** | 400 MAD investment | **0.5 months (15 days) payback** (Stops 4,500 m³ continuous annual water loss).
-  2. *Swimming Pool VFD Eco-Mode*: **4,600 MAD / year** | 450 MAD investment | **1.2 months payback**.
-  3. *HVAC Scheduling & Temperature Reset*: **18,400 MAD / year** | 6,000 MAD investment | **3.9 months payback** (Eliminates 13.6 MWh redundant cooling).
+| Metric | Target / Benchmark | Operational Status | Annual Financial Impact |
+| :--- | :--- | :--- | :--- |
+| **Resyntel Efficiency Score** | **78 / 100** | Active Benchmark | Baseline operational index |
+| **Total Savings Opportunity** | **65,200 MAD / yr** | 17 Opportunities | Quantified across all vectors |
+| **Electricity Variance** | **+12.0%** vs expected | Operational Inefficiency | **43,800 MAD / yr** potential savings |
+| **Water Variance** | **+18.0%** vs expected | Active Leak Anomaly | **18,700 MAD / yr** potential savings |
+| **Carbon Variance** | **+11.0%** vs expected | Scope 1 + Scope 2 | **41.4 tCO₂e / yr** reduction potential |
+| **Flagship Water Leak** | **5.9 m³/hr** vs 1.8 baseline | Active (02:00–05:00) | **4,500 m³ / yr** · **9,800 MAD / yr** |
+| **HVAC Chiller Optimization** | **3.9 months payback** | High Priority | **18,400 MAD / yr** (6,000 MAD capex) |
+
+> **Compliance Note**: All demo screens clearly indicate:  
+> `DEMO DATA — LIVE HOTEL INTEGRATION PENDING` / `Zephyr Marrakech — Demo`
 
 ---
 
@@ -57,11 +92,25 @@ C:\resintel
 │   ├── tests/                     # Pytest suite (16 passing tests)
 │   ├── requirements.txt
 │   └── main.py
-├── frontend/                      # Next.js 15 App Router Frontend
+├── frontend/                      # Next.js 16 App Router Frontend
 │   ├── src/
 │   │   ├── app/                   # Routes: /, /dashboard, /energy, /water, /carbon, /assets, /opportunities, /ask, /portfolio, /connect
 │   │   ├── components/
 │   │   │   ├── brand/             # Resyntel vector LogoMark, LogoFull, LogoCompact
+│   │   │   ├── marketing/         # Venture-grade landing page components:
+│   │   │   │   ├── MarketingNav.tsx             # Translucent backdrop-blur header
+│   │   │   │   ├── Hero.tsx                     # Architectural hotel photo + telemetry
+│   │   │   │   ├── HeroIntelligencePanel.tsx    # Floating telemetry instrument
+│   │   │   │   ├── ProblemSection.tsx           # Split architectural view & principles
+│   │   │   │   ├── IntelligenceFlow.tsx         # 7-stage closed-loop pipeline
+│   │   │   │   ├── HotelIntelligenceVisual.tsx  # Spatial physical plant annotations
+│   │   │   │   ├── FinancialImpact.tsx          # High-contrast MAD financial numbers
+│   │   │   │   ├── ProductShowcase.tsx          # Real software preview container
+│   │   │   │   ├── AskResyntelSection.tsx       # Grounded conversational AI dialogue
+│   │   │   │   ├── HospitalitySystems.tsx       # 10 physical operational domains
+│   │   │   │   ├── DataArchitecture.tsx        # Hardware-agnostic ingestion diagram
+│   │   │   │   ├── FinalCTA.tsx                 # Full-width twilight architectural CTA
+│   │   │   │   └── MarketingFooter.tsx          # Corporate credentials & compliance
 │   │   │   ├── layout/            # Sidebar, Header, BrandFooter, AppShell
 │   │   │   ├── charts/            # ActualVsExpectedChart, BreakdownBarChart (Recharts)
 │   │   │   ├── ui/                # KPICard, OpportunityDrawer, StatusBadges
@@ -69,21 +118,15 @@ C:\resintel
 │   │   ├── lib/                   # formatMAD, i18n dictionary, data-service, api-client
 │   │   └── types/                 # TypeScript interfaces
 │   ├── package.json
+│   ├── next.config.ts
 │   └── tailwind.config.ts
+├── docs/                          # Detailed Architecture & Operations Documentation
+│   ├── ARCHITECTURE.md            # Deep dive into analytics & regressions
+│   ├── LOCALIZATION_MOROCCO.md    # Tariffs, ONEE/RADEEMA math & regulatory compliance
+│   └── EXECUTIVE_DEMO_SCRIPT.md   # 10-step CEO walkthrough script
 ├── .env.example
 ├── .gitignore
 └── README.md
-```
-
-### Modular Data Provider Architecture
-
-```text
-DataProvider
-├── DemoDataProvider        # Active: 12-month calibrated Zephyr Marrakech dataset
-├── CSVProvider             # Active: Operational CSV upload, validation & normalization
-├── MetrikusProvider        # V3 Stub: Cloud normalized sensor feeds
-├── BMSProvider             # V3 Stub: BACnet / Modbus IP connector
-└── IoTProvider             # V3 Stub: LoRaWAN / MQTT pulse sub-meters
 ```
 
 ---
@@ -92,19 +135,19 @@ DataProvider
 
 ### Prerequisites
 
-- Node.js 18+ and npm
-- Python 3.11+
-- Git
+- **Node.js 18+** & npm
+- **Python 3.11+**
+- **Git**
 
 ### 1. Clone & Configure
 
 ```bash
-git clone https://github.com/AberraouiTekypay/resintel.git
-cd resintel
+git clone https://github.com/AberraouiTekypay/resyntel.git
+cd resyntel
 cp .env.example .env
 ```
 
-### 2. Frontend Setup (Next.js)
+### 2. Frontend Setup (Next.js 16)
 
 ```bash
 cd frontend
@@ -112,7 +155,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the application.
+Open [http://localhost:3000](http://localhost:3000) to view the application locally.
 
 To verify a production build:
 ```bash
@@ -120,11 +163,12 @@ npm run build
 npm run start
 ```
 
-### 3. Backend Setup (Python FastAPI)
+### 3. Backend Setup (FastAPI)
 
 ```bash
 cd backend
 python -m venv venv
+
 # On Windows:
 .\venv\Scripts\Activate.ps1
 # On Linux/macOS:
@@ -140,32 +184,45 @@ API documentation available at [http://localhost:8000/docs](http://localhost:800
 
 ```bash
 cd backend
-$env:PYTHONPATH='.' ; pytest -v
+$env:PYTHONPATH="." ; python -m pytest -v
 ```
 
-All 16 unit and integration tests verify baseline calculations, anomaly thresholds, tariff math, carbon factors, and API endpoints.
+All 16 unit and integration tests verify baseline regressions, anomaly thresholds, tariff calculations, carbon factors, and API endpoints.
 
 ---
 
 ## Live CEO Demo Walkthrough (10-Step Script)
 
-1. **Open Landing Page** (`/`): Introduce **RESYNTEL** (*Resource Intelligence for Hospitality · An EM300.co Company*). Switch language between English and French.
-2. **Launch Resyntel Overview** (`/dashboard`): CEO sees **78 / 100** Resyntel Efficiency Score and **65,200 MAD / year** annual savings opportunity.
-3. **Inspect Energy Intelligence** (`/energy`): Show actual vs expected consumption curves, intensity per room, and the **18,400 MAD** HVAC operational waste.
-4. **Inspect Water Intelligence** (`/water`): Point out the critical **5.9 m³/hr** overnight leak (expected 1.8 m³/hr) generating **9,800 MAD / year** in waste.
-5. **Inspect Carbon Intelligence** (`/carbon`): Review Scope 1 & 2 emissions and the **48.6 tCO₂e** annual reduction potential.
-6. **Inspect Asset Intelligence** (`/assets`): Review health index across Central Chillers, Boilers, Pumps, Pools, and Cold Rooms.
-7. **Inspect Savings Opportunities** (`/opportunities`): Sort all 17 opportunities by **Payback**. Click **HVAC Optimization** to review analytical evidence and the 3.9-month payback.
-8. **Engage Ask Resyntel** (`/ask`): Ask *"What should we fix first?"* (or in French: *"Que devons-nous corriger en priorité ?"*) and receive an instant, grounded executive response.
-9. **Inspect Portfolio View** (`/portfolio`): Show multi-property scaling across Zephyr Marrakech, Agadir, and Fès.
-10. **Conclude with Pilot Intake** (`/connect`): Download sample CSV templates and submit a property pilot audit request.
+1. **Public Marketing Experience (`/`)**:
+   - Present **RESYNTEL** (*Resource Intelligence for Hospitality · An EM300.co Company*).
+   - Demonstrate the editorial architectural photography and the floating intelligence instrument (**65,200 MAD** avoidable cost, **5.4 m³/h** overnight leak).
+   - Toggle language between English and Français to show zero-compromise bilingual delivery.
+2. **Executive 30-Second Dashboard (`/dashboard`)**:
+   - CEO immediately sees the **78 / 100** Resyntel Efficiency Score and **65,200 MAD / year** annual savings opportunity.
+3. **Energy Intelligence (`/energy`)**:
+   - Show actual vs expected consumption curves, intensity per room, and the **18,400 MAD** HVAC operational waste.
+4. **Water Intelligence (`/water`)**:
+   - Highlight the critical **5.9 m³/hr** overnight leak (expected 1.8 m³/hr) generating **18,700 MAD / year** in excess utility billing.
+5. **Carbon Intelligence (`/carbon`)**:
+   - Review Scope 1 & Scope 2 ONEE emissions and the **41.4 tCO₂e** annual reduction potential.
+6. **Asset Intelligence (`/assets`)**:
+   - Review health indices across Central Chillers, Boilers, Booster Pumps, Pools, and Cold Rooms.
+7. **Savings Opportunities (`/opportunities`)**:
+   - Filter and sort 17 opportunities by **Payback**. Click **HVAC Setpoint Optimization** to review analytical evidence and the 3.9-month payback.
+8. **Engage Ask Resyntel (`/ask`)**:
+   - Ask *"What should we fix first?"* (or in French: *"Que devrions-nous corriger en priorité ?"*) and receive an instant, deterministically grounded executive response.
+9. **Portfolio Governance (`/portfolio`)**:
+   - Show multi-property scaling across Zephyr Marrakech, Zephyr Casablanca, and Zephyr Taghazout.
+10. **Conclude with Pilot Intake (`/connect`)**:
+    - Showcase drag-and-drop CSV onboarding and hardware-agnostic connectivity.
 
 ---
 
 ## Brand Positioning & Credits
 
-**RESYNTEL**
-*Resource Intelligence for Hospitality*
+**RESYNTEL**  
+*Resource Intelligence for Hospitality*  
 
-**An EM300.co Company**
+**An EM300.co Company**  
+Domain: [resyntel.com](https://resyntel.com) · Production Deployment: [resyntel.vercel.app](https://resyntel.vercel.app)  
 Copyright © 2026 Resyntel. All rights reserved. Localized in Moroccan Dirham (MAD).
